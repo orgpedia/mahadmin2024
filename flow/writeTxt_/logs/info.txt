@@ -27,45 +27,4 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402291118528507.pdf --> para 202402291118528507.pdf:Page_idx: 2 2 <-> [(0, 12)]
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403071553107307.pdf missing_cmaps: couriernewbold
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:28 Errors=28 TableEmptyBodyCellError=28
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403071553107307.pdf: >शासन आदेश क्रमांक< >एएससी-१५२३/प्र.क्र.१०७/प्रशा-३<
-	elapsed_time:202403071553107307.pdf: 0.000109
-  exec_task: doc_translator_hf 
-    Paras: #68 Sentences: #158
-	[0]  #words: 259 #sentences: 123
-	After generate: 5 MB
-	[1]  #words: 12 #sentences: 2
-	After generate: 5 MB
-	[0]  #words: 257 #sentences: 57
-	After generate: 5 MB
-	[1]  #words: 265 #sentences: 27
-	After generate: 5 MB
-	[2]  #words: 57 #sentences: 5
-	After generate: 5 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403071714542107.pdf missing_cmaps: couriernewbold
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 2: एमसीएम-२०२४/प्र.क्र.२२६/निवडणूक/कार्या-३३ ==क्र.एमसीएम-२०२४/प्र.क्र.२२६/निवडणूक/कार्या-३३
-	extract_order_number:202403071714542107.pdf: >क्र.< >एमसीएम-२०२४/प्र.क्र.२२६/निवडणूक/कार्या-३३<
-	elapsed_time:202403071714542107.pdf: 0.000621
-  exec_task: doc_translator_hf 
-    Paras: #28 Sentences: #0
-	[0]  #words: 213 #sentences: 29
-	After generate: 5 MB
-  exec_task: text_writer 
-#docs: 174 #processed: 5
+#docs: 174 #processed: 3
