@@ -1,53 +1,27 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-195
+198
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-  exec_task: word_recognizer 
-	Tesseract on page: 3
-  exec_task: pdftable_finder 
-	==Total:9 Errors=9 TableEmptyBodyCellError=9
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202401251248214607.pdf --> para 202401251248214607.pdf:Page_idx: 0 2 <-> [(0, 16)]
+**** PIPEERROR IN 202401251248214607.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:14 Errors=14 TableEmptyBodyCellError=14
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202402281636430907.pdf --> para 202402281636430907.pdf:Page_idx: 2 2 <-> [(0, 1)]
+**** PIPEERROR IN 202402281636430907.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402291118528507.pdf missing_cmaps: couriernewbold
-  exec_task: word_recognizer 
-	Replaced 0:114 >(couriernewbold-cid:17)<  >| e<
-  exec_task: pdftable_finder 
-	==Total:23 Errors=23 TableEmptyBodyCellError=23
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202402291118528507.pdf --> para 202402291118528507.pdf:Page_idx: 2 2 <-> [(0, 12)]
+**** PIPEERROR IN 202402291118528507.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111710414107.pdf missing_cmaps: couriernewbold, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-  exec_task: pdftable_finder 
-	==Total:15 Errors=15 TableEmptyBodyCellError=15
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202403111710414107.pdf --> para 202403111710414107.pdf:Page_idx: 0 1 <-> [(0, 9), (0, 10)]
+**** PIPEERROR IN 202403111710414107.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403141300285907.pdf missing_cmaps: couriernewbold, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:72 Errors=72 TableEmptyBodyCellError=72
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202403141300285907.pdf --> para 202403141300285907.pdf:Page_idx: 2 1 <-> [(0, 1), (0, 2)]
-#docs: 195 #processed: 5
+**** PIPEERROR IN 202403141300285907.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151058486407.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151536350707.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151650590907.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+#docs: 198 #processed: 8
