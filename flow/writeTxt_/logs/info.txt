@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-224
+228
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -29,7 +29,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402291118528507.pdf --> para 202402291118528507.pdf:Page_idx: 2 2 <-> [(0, 12)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111710414107.pdf missing_cmaps: couriernewbold, sakalmarathinormal
+	202403111710414107.pdf missing_cmaps: sakalmarathinormal, couriernewbold
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -40,7 +40,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403111710414107.pdf --> para 202403111710414107.pdf:Page_idx: 0 1 <-> [(0, 9), (0, 10)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403141300285907.pdf missing_cmaps: couriernewbold, sakalmarathinormal
+	202403141300285907.pdf missing_cmaps: sakalmarathinormal, couriernewbold
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -52,104 +52,89 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403141300285907.pdf --> para 202403141300285907.pdf:Page_idx: 2 1 <-> [(0, 1), (0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403191007592207.pdf missing_cmaps: couriernewbold, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-  exec_task: pdftable_finder 
-	==Total:10 Errors=10 TableEmptyBodyCellError=10
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 5: आढावा-१६१६/प्र.क्र.२१३/आस्था-२ (१९३) ==शासन शुध्दिपत्रक क्रमांकः आढावा-१६१६/ प्र.क्र.२१३/आस्था-२ (१९३)
-	extract_order_number:202403191007592207.pdf: >शासन शुध्दिपत्रक क्रमांक< >आढावा-१६१६/प्र.क्र.२१३/आस्था-२ (१९३)<
-	elapsed_time:202403191007592207.pdf: 0.000516
-  exec_task: doc_translator_hf 
-    Paras: #23 Sentences: #9
-	[0]  #words: 21 #sentences: 9
-	After generate: 2 MB
-	[0]  #words: 257 #sentences: 33
-	After generate: 8 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403191011518507.pdf missing_cmaps: couriernewbold, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 7: अपमु-२९२४/प्र.क्र.२२/आस्था-२ ==शासन शुध्दिपत्रक क्रमांकः अपमु-२९२४/प्र.क्र.२२/आस्था-२
-	extract_order_number:202403191011518507.pdf: >शासन शुध्दिपत्रक क्रमांक< >अपमु-२९२४/प्र.क्र.२२/आस्था-२<
-	elapsed_time:202403191011518507.pdf: 0.000747
-  exec_task: doc_translator_hf 
-    Paras: #23 Sentences: #0
-	[0]  #words: 246 #sentences: 35
-	After generate: 8 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403191445070207.pdf missing_cmaps: couriernewbold, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403191445070207.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-३५२४/प्र.क्र.२४/आस्था-२(१९अ)<
-	elapsed_time:202403191445070207.pdf: 0.000105
-  exec_task: doc_translator_hf 
-    Paras: #44 Sentences: #0
-	[0]  #words: 258 #sentences: 44
-	After generate: 9 MB
-	[1]  #words: 124 #sentences: 8
-	After generate: 9 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403191657337407.pdf missing_cmaps: couriernewbold, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 0: भाप्रसे-१५२३/प्र.क्र.८३/२०२३/भाप्रसे-३ ==क्रमांक : भाप्रसे-१५२३/प्र.क्र.८३ /२०२३/भाप्रसे-३
-	extract_order_number:202403191657337407.pdf: >क्रमांक< >भाप्रसे-१५२३/प्र.क्र.८३/२०२३/भाप्रसे-३<
-	elapsed_time:202403191657337407.pdf: 0.000862
-  exec_task: doc_translator_hf 
-    Paras: #12 Sentences: #0
-	[0]  #words: 135 #sentences: 14
-	After generate: 9 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403191720473007.pdf missing_cmaps: couriernewbold, sakalmarathinormal
+	202403201200480507.pdf missing_cmaps: sakalmarathinormal, couriernewbold
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
 	Tesseract on page: 2
   exec_task: pdftable_finder 
-	==Total:27 Errors=27 TableEmptyBodyCellError=27
+	==Total:279 Errors=279 TableEmptyBodyCellError=279
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403191720473007.pdf: >शासन परिपत्रक क्रमांक< >बियुडी-१८२३/प्र.क्र.४१/२०२३/२३६<
-	elapsed_time:202403191720473007.pdf: 0.000092
+	extract_order_number:202403201200480507.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-२७२३/प्र.क्र.२०८/मंआस्था-१<
+	elapsed_time:202403201200480507.pdf: 0.000087
   exec_task: doc_translator_hf 
-    Paras: #67 Sentences: #12
-	[0]  #words: 87 #sentences: 8
-	After generate: 9 MB
-	[0]  #words: 264 #sentences: 54
-	After generate: 11 MB
-	[1]  #words: 262 #sentences: 24
-	After generate: 11 MB
-	[2]  #words: 234 #sentences: 15
-	After generate: 11 MB
+    Paras: #42 Sentences: #0
+	[0]  #words: 257 #sentences: 38
+	After generate: 3 MB
+	[1]  #words: 151 #sentences: 12
+	After generate: 3 MB
   exec_task: text_writer 
-#docs: 224 #processed: 10
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201242274607.pdf missing_cmaps: sakalmarathinormal, couriernewbold, dvotsurekhmrbold, dvotsurekhmrnormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:165 Errors=165 TableEmptyBodyCellError=165
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201242274607.pdf: >शासन निर्णय क्रमांक< >टीआरएन २०२३/प्र.क्र.४०/२३/१२-अ<
+	elapsed_time:202403201242274607.pdf: 0.000111
+  exec_task: doc_translator_hf 
+    Paras: #78 Sentences: #33
+	[0]  #words: 56 #sentences: 23
+	After generate: 3 MB
+	[0]  #words: 263 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 264 #sentences: 29
+	After generate: 12 MB
+	[2]  #words: 268 #sentences: 23
+	After generate: 12 MB
+	[3]  #words: 201 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201617586707.pdf missing_cmaps: sakalmarathinormal, couriernewbold, dvotsurekhmrbold, dvotsurekhmrnormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:21 Errors=21 TableEmptyBodyCellError=21
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201617586707.pdf: >शासन निर्णय क्रमांक< >कअनि-११२४/प्र.क्र.१८/प्रशा-२(१४ब)<
+	elapsed_time:202403201617586707.pdf: 0.000094
+  exec_task: doc_translator_hf 
+    Paras: #54 Sentences: #22
+	[0]  #words: 53 #sentences: 11
+	After generate: 12 MB
+	[0]  #words: 259 #sentences: 45
+	After generate: 12 MB
+	[1]  #words: 322 #sentences: 18
+	After generate: 12 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403201623258107.pdf missing_cmaps: sakalmarathinormal, couriernewbold, dvotsurekhmrbold, dvotsurekhmrnormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:22 Errors=22 TableEmptyBodyCellError=22
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403201623258107.pdf: >शासन निर्णय क्रमांक< >कअनि-११२४/प्र.क्र.२१/प्रशा-२(१४ब)<
+	elapsed_time:202403201623258107.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #52 Sentences: #0
+	[0]  #words: 259 #sentences: 41
+	After generate: 12 MB
+	[1]  #words: 347 #sentences: 18
+	After generate: 12 MB
+  exec_task: text_writer 
+#docs: 228 #processed: 9
